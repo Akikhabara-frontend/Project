@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
+    background-image: url(images/bgg4.svg);
+    background-size: 1278px 892px;
+    background-repeat: no-repeat;
+    background-position: top 0 left 500px;
+    
+    
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.header_inner{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    top: -10px;
+    
+}
+.nav{
+    display: flex;
+    float: right;
+}
+.nav_link{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    font-weight: 500;
+    
+    transition: color .2s linear;
+}
+.nav_link:hover{
+    color: #1C1389;
+}
+.title{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.mini{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side{
+    
+  
+}
+
+.block1,
+.block2,
+.block3,
+.block4{
+   width: 470px;
+    height: 290px;
+    border: 3px solid blue;
+    border-radius: 15px; 
+    
+    margin-bottom: 20px;
+}
+
+
+.right_side{
+   margin-left: 22px;
+}
+.cards_content{
+    margin: 20px 40px;
+}
+.text{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.definition{
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.price{
+    background-color: #ECA2FF;
+    width: 407px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    line-height: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.price_text{
+     margin-left: auto;
+    margin-right: auto;
+    bottom: 30spx;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    
+}
+/*
+.btn1 button{
+    color: black;
+    display: flex;
+    margin-right: 22px;
+    margin-left: 31px;
+    margin-top: 9px;
+    width: 193px;
+    height: 38px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    text-align: center;
+    
+    font-weight: 600;
+    color: blue;
+} */
+.btn button{
+   cursor: pointer;
+    display: block;
+    width: 407px;
+    margin: 10px auto 0 auto;
+    padding: 10px 0;
+    font-size: 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.pop_up{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.pop_up.active{
+    display: block;
+}
+.popup_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.popup_body{
+    display: block;
+    margin: auto;
+    width: 500px;
+    background-color: blue;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+.popup_body p{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.popup_body input{
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    color: blue;
+    border-radius: 10px;
+    border: none;
+}
+.popup_body button{
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0 auto;
+    padding: 20px 0;
+    font-size: 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: orange;
+}
+.popup_close{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 40px;
+    background-color: blue;
+    margin-top: auto;
+}
